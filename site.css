@@ -29,10 +29,11 @@ h1,h2,h3{text-align: center;color: #259925;}
 animation: drift 1.8s ease-in-out infinite alternate;}
 @keyframes drift {
     from { transform: translateY(7px) translateX(0); }
-    to { transform: translateY(-7px) translateX(0); }  }
+    to { transform: translateY(-7px) translateX(0); }
+}
 #ccby{color:#259925;font-style: italic;}
 .textindenting{text-indent:7%;}
-@media (min-width: 481px), (max-width:1688px){
+@media (max-width:1688px){
 .text_based_pic{
 font-size: 14px;}
 }
